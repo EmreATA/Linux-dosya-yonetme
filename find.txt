@@ -1,0 +1,12 @@
+   34  find . -name techproeducation.txt >> name1.txt
+   35  find /home -name techproeducation.txt > name2.txt
+   36  find /home - type d -name linux-lessons > name3.txt
+   37  find /home -type d -name linux-lessons > name3.txt
+   38  find /home /home -type -name "*.txt" > name4.txt
+   39  find /home /home -type f -name "*.txt" > name4.txt
+   40  find /home -type f -name "*.txt" > name4.txt
+   42  find /home -type f -name "*.txt" > name4.txt
+   45  find /home -type f -empty > name5.txt
+   46  find /home -size 100M > name6.txt
+   47  find /home -size +50M -size 100M > name7.txt
+   53  history | grep "find" > find.txt
