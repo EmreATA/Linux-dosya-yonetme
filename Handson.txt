@@ -1,0 +1,47 @@
+mkdir linux-lessons
+cd linux-lessons
+head techproeducation.txt
+head -5 techproeducation.txt
+tail techproeducation.txt
+tail -5 techproeducation.txt
+cat techproeducation.txt
+echo "this is file1" > file1
+echo "this is file2" > file2
+echo "this is file3" > file3
+cat file1 file2 file3
+cat file1 file2 file3 > all.txt
+cat > summer.txt 
+Today is cold.
+Today is rainy
+more techproeducation.txt
+less techproeducation.txt
+tac techproeducation.txt
+tac techproeducation.txt > reverse-techproeducation.txt
+find . -name techproeducation.txt
+find /home -name techproeducation.txt
+find /home -iname techproeducation.txt
+find /home -type d -name linux-lessons
+find . -type f -name "*.txt"
+find . -type f -empty
+find /home -type f -empty
+find /home -size 100M
+find /home -size +50M -size -100M
+find /home -mtime 10
+find /home -mtime -10
+find /home -mtime +10
+find . -mmin +10 -mmin -30
+grep "kernel" linux.txt
+grep  "is" *
+grep "linux" linux.txt
+grep -i "linux" linux.txt
+grep -i "ker" linux.txt
+grep -w "ker" linux.txt
+grep -w "kernel" linux.txt
+grep -v "kernel" linux.txt
+grep "^li" techproeducation.txt
+grep "kernel.$" linux.txt
+man pwd | grep "print"
+man find | grep -A5 "variable"
+info pwd | grep "print"
+info pwd | grep -B5 "options"
+history | grep "find"
